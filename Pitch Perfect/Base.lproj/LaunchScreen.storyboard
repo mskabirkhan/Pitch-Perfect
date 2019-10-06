@@ -18,17 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to the world of imperfaction; just strive to do your best. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bgn-bw-kPL">
-                                <rect key="frame" x="0.0" y="220" width="414" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Welcome to the world of imperfaction; just strive to do your best. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bgn-bw-kPL">
+                                <rect key="frame" x="20" y="220" width="374" height="150"/>
                                 <color key="backgroundColor" red="0.2375311058" green="0.59986384719999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.20541743867808981" green="0.51427664974365483" blue="0.10298602826129663" alpha="0.66162778253424659" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="a0R-26-SSQ"/>
+                                </constraints>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" smartQuotesType="yes"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.90309799133797519" blue="0.74876684476923683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bgn-bw-kPL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4Qo-NY-V1I"/>
+                            <constraint firstItem="Bgn-bw-kPL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="176" id="Uvy-zF-3dZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bgn-bw-kPL" secondAttribute="trailing" constant="20" id="kUK-ex-8XU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
